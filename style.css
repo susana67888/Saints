@@ -1,0 +1,458 @@
+#inicio main{ 
+    display: grid;
+    margin: 0 auto;
+    width: 1800px;
+    height: 3000px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px auto 600px 60px;
+    background-image: url(pieza\ para\ impresion.jpg);
+    background-size: 100%;
+    
+    }
+    
+    
+    #inicio header{ 
+        background-color: rgb(0, 0, 0);
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        text-align: center;
+        font-size: 80px;
+        
+    }
+    
+    img#logo{
+        width: 200px;
+        height: 200px;
+        margin-right:  100%;
+        margin-top: -0.5%;
+    }
+    
+    #inicio nav{
+      
+        display: flex;
+        justify-content: space-evenly;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        margin-top: -8%;
+    
+    }
+   
+    
+    #inicio footer{ 
+        background-color:rgb(0, 0, 0);
+        color: white;
+        text-align: center;
+        padding-top: 10%;
+        width: 1800px;
+        height: 55px;
+        margin-top: 2800px;
+    }
+
+     
+    .pdfcajita {
+       width: 1760px;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        text-align: center;
+        
+    }
+    
+    .descargarpdf {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        background-color: black;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .descargarpdf:hover {
+        background-color: rgb(115, 17, 17);
+    }
+    
+    #inicio p{ 
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        font-size: 15pt;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 5px 10px ;
+        transition: 2s;
+    }
+    
+    #inicio p:hover{
+        background-color: rgb(115, 17, 17)
+        ;
+    }
+    p:active{
+        background-color: rgb(255, 255, 255);
+    }
+    
+    a{ color: inherit;
+    text-decoration: none;}
+
+
+
+
+
+
+
+
+#hombre main{ 
+    display: grid;
+    margin: 0 auto;
+    width: 1800px;
+    height: 2000px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px auto 600px 60px;
+    background-image: none;
+    background-size: 100%;
+    
+    }
+    
+    
+    #hombre header{ 
+        background-color: rgb(0, 0, 0);
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        text-align: center;
+        font-size: 80px;
+        
+    }
+    
+    img#logo{
+        width: 200px;
+        height: 200px;
+        margin-right:  100%;
+        margin-top: -0.5%;
+    }
+    
+    #hombre nav{
+      
+        display: flex;
+        justify-content: space-evenly;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        margin-top: -8%;
+    
+    }
+
+
+    .contenedor-cajas {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 40px;
+        padding: 30px;
+        box-sizing: border-box;
+      }
+      
+      .caja {
+        background-color: #f4f4f4;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        overflow: hidden;
+      }
+      
+      .izquierda {
+        width: 1200px;
+        height: 3000px;
+      }
+      
+      .derecha {
+        width: 500px;
+        height: 3000px;
+        font-size: 40px;
+      }
+      
+    
+    
+    
+    #hombre footer{ 
+        background-color:rgb(255, 255, 255);
+        grid-column: 1/4;
+        grid-row: 4/5;
+        text-align: center;
+    }
+    
+    #hombre p{ 
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        font-size: 15pt;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 5px 10px ;
+        transition: 2s;
+    }
+    
+    #hombre p:hover{
+        background-color: rgb(115, 17, 17)
+        ;
+    }
+    p:active{
+        background-color: rgb(255, 255, 255);
+    }
+    
+    a{ color: inherit;
+    text-decoration: none;}
+
+
+
+
+
+
+
+
+
+
+#mujer main{ 
+    display: grid;
+    margin: 0 auto;
+    width: 1800px;
+    height: 3000px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px auto 600px 60px;
+    background-image: none;
+    background-size: 100%;
+    
+    }
+    
+    
+    #mujer header{ 
+        background-color: rgb(0, 0, 0);
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        text-align: center;
+        font-size: 80px;
+        
+    }
+    
+    img#logo{
+        width: 200px;
+        height: 200px;
+        margin-right:  100%;
+        margin-top: -0.5%;
+    }
+    
+    #mujer nav{
+      
+        display: flex;
+        justify-content: space-evenly;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        margin-top: -8%;
+    
+    }
+    
+    #cajasmujer .contenedor-cajas {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 40px;
+        padding: 40px;
+        box-sizing: border-box;
+      }
+      
+      .caja {
+        background-color: #f4f4f4;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        overflow: hidden;
+      }
+      
+      .izquierda {
+        width: 1200px;
+        height: 2000px;
+      }
+      
+      .derecha {
+        width: 500px;
+        height: 2000px;
+      }
+    
+    #mujer footer{ 
+        background-color:rgb(255, 255, 255);
+        grid-column: 1/4;
+        grid-row: 4/5;
+        text-align: center;
+
+    }
+    
+    #mujer p{ 
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        font-size: 15pt;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 5px 10px ;
+        transition: 2s;
+    }
+    
+    #mujer p:hover{
+        background-color: rgb(115, 17, 17)
+        ;
+    }
+    p:active{
+        background-color: rgb(255, 255, 255);
+    }
+    
+    a{ color: inherit;
+    text-decoration: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#nosotros main{ 
+    display: grid;
+    margin: 0 auto;
+    width: 1800px;
+    height: 3000px;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px auto 600px 60px;
+    background-image: none;
+    background-size: 100%;
+    
+    }
+    
+    
+    #nosotros header{ 
+        background-color: rgb(0, 0, 0);
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        text-align: center;
+        font-size: 80px;
+        
+    }
+    
+    img#logo{
+        width: 200px;
+        height: 200px;
+        margin-right:  100%;
+        margin-top: -0.5%;
+    }
+    
+    #nosotros nav{
+      
+        display: flex;
+        justify-content: space-evenly;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        margin-top: -8%;
+    
+    }
+    
+    
+   
+.cajanosotros  {
+    background-color: #000000;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+width: 1800px;
+height: 2500px;
+text-align: center;
+color: white;
+margin-top: 20px;
+display: block;
+
+
+}
+
+
+
+.cajanosotros h2 {
+    font-size: 20px;
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+
+.cajanosotros h3,
+.cajanosotros h4,
+.cajanosotros h5 {
+    font-size: 102px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+.cajanosotros p {
+    max-width: 900px;
+    margin: 0 auto 20px auto;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: inherit; 
+    margin-bottom: 180px;
+    margin-top: 50px;
+}
+
+
+.contenedorimagenes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 0px;
+
+}
+
+.contenedorimagenes img {
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+}
+
+
+
+    #nosotros footer{ 
+        background-color:rgb(0, 0, 0);
+        grid-row: 4/3;
+        text-align: center;
+        color: white;
+        padding-top: 100px;
+        
+    }
+    
+    #nosotros p{ 
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        font-size: 15pt;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5px 10px ;
+        transition: 2s;
+    }
+    
+    #nosotros p:hover{
+        background-color: rgb(115, 17, 17)
+        ;
+    }
+    p:active{
+        background-color: rgb(255, 255, 255);
+    }
+    
+    a{ color: inherit;
+    text-decoration: none;}
